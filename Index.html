@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.NEWSMADA.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/style.css">
+    <script>document.documentElement.classList.add('js');</script>
+</head>
+
+<body>
+    <div id="progress"></div>
+
+    <nav id="Accueil" class="navbar">
+        <a class="brand" href="#Accueil"><span class="news">NEWS</span><span class="mada">MADA</span></a>
+        <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        <div class="onglets">
+            <a href="#Accueil">Accueil</a>
+            <a href="#pauvreté">Pauvreté</a>
+            <a href="#Richesse">Richesse</a>
+            <a href="#Contact">Contact</a>
+        </div>
+    </nav>
+
+    <header>
+        <div class="titre">
+            <h1>Madagascar: entre luxe et précarité</h1>
+            <p>Richesse et pauvreté coexistent de manière frappante sur la grande île.</p>
+            <a class="btn" href="#pib">VOIR PIB Madagascar</a>
+        </div>
+    </header>
+
+    <div class="fond">
+        <section id="partie">
+            <div class="ensemble">
+                <div class="corps">
+                    <div class="contenue c1 reveal" id="pauvreté">
+                        <div class="img-box"><img src="image/pexels-megane-ssu-46787836-7506103.jpg" alt="Photo" loading="lazy"></div>
+                        <p>À Madagascar, les familles pauvres vivent avec des ressources très limitées et des conditions de vie
+                            difficiles. Elles ont un accès restreint à la nourriture, à l’éducation et aux soins, ce qui les rend très
+                            vulnérables.
+                        </p>
+                    </div>
+                    <div class="contenue c2 reveal">
+                        <div class="img-box"><img src="image/pexels-hvkeem-photos-2152348834-32271974.jpg" alt="Photo" loading="lazy"></div>
+                        <p>
+                            La jeunesse à Madagascar est nombreuse, motivée, mais confrontée au manque d’emplois et de moyens pour
+                            étudier. Elle cherche malgré tout des solutions pour avancer, surtout à travers les études, les petits
+                            métiers et l’informatique.
+                        </p>
+                    </div>
+                    <div class="contenue c3 reveal">
+                        <div class="img-box"><img src="image/pexels-safari-consoler-3290243-12411859.jpg" alt="Photo" loading="lazy"></div>
+                        <p>À Madagascar, le chômage est élevé et beaucoup de personnes n’ont pas d’emploi stable, ce qui les pousse
+                            vers des petits travaux mal payés. Le salaire minimum reste très bas (autour de 200 000 ariary par mois),
+                            insuffisant pour vivre correctement.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="titre reveal" id="pib">
+            <p>Voici une courbe interactive du PIB de Madagascar basée sur les données de la Banque mondiale de 1980 à 2024.</p>
+        </div>
+        <div class="pib reveal">
+            <div class="img-box"><img src="image/PIB_Madagascar_1980_2024.png" alt="Courbe du PIB de Madagascar" loading="lazy"></div>
+            <p>
+                Le PIB s'élevait à 17,6 milliards de dollars en 2024, contre environ 5 Md$ en 1980, soit une multiplication
+                par 3,4 en valeur nominale. Le taux de croissance était de 3,8 % en 2025 selon le FMI, signalant une reprise
+                progressive. Le PIB par habitant ne dépasse pas 448 dollars en 2023, représentant seulement 4 % de la moyenne
+                mondiale, signe que la croissance n'a pas suffi à compenser l'explosion démographique.
+            </p>
+        </div>
+
+        <div class="photo reveal">
+            <div class="menu">
+                <label for="slide-dot-1"></label>
+                <label for="slide-dot-2"></label>
+                <label for="slide-dot-3"></label>
+            </div>
+            <input class="slide-input" id="slide-dot-1" type="radio" name="slides" checked>
+            <img class="slide-img" src="image/pexels-ganajp-4032580.jpg" alt="image" loading="lazy">
+
+            <input class="slide-input" id="slide-dot-2" type="radio" name="slides">
+            <img class="slide-img" src="image/pexels-robcas-35174688.jpg" alt="image" loading="lazy">
+
+            <input class="slide-input" id="slide-dot-3" type="radio" name="slides">
+            <img class="slide-img" src="image/pexels-louloua-asgaraly-132795-5549114.jpg" alt="image" loading="lazy">
+        </div>
+
+        <div class="texte reveal" id="Richesse">
+            <p>Madagascar est riche en ressources maritimes avec une grande diversité de poissons et une pêche importante pour l’alimentation et l’économie. Son agriculture produit du riz, de la vanille et d’autres cultures tropicales essentielles, même si elle reste peu modernisée. Le pays possède aussi une faune unique au monde, comme le maki, symbole de sa biodiversité exceptionnelle mais fragile.
+            </p>
+        </div>
+        <div class="autreimage reveal">
+            <img src="image/pexels-robcas-35174688.jpg" alt="images" loading="lazy">
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h2 class="logo"><span class="news">NEWS</span><span class="mada">MADA</span></h2>
+                <p>
+                    NEWSMADA est une plateforme d'information dédiée à vous tenir informé
+                    sur les réalités actuelles : pauvreté, richesse et actualités importantes.
+                    Restez connecté pour ne rien manquer.
+                </p>
+            </div>
+
+            <div class="footer-section" id="Contact">
+                <h3>Contact</h3>
+                <div class="contact-item"><img src="image/mail.png" alt="email"><span>NEWSMADA@gmail.com</span></div>
+                <div class="contact-item"><img src="image/facebook.png" alt="facebook"><span>NEWSMADA</span></div>
+                <div class="contact-item"><img src="image/whatsapp.jpeg" alt="whatsapp"><span>038 77 919 43</span></div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Recevoir les actualités</h3>
+                <form class="newsletter">
+                    <input type="email" placeholder="Votre email" required>
+                    <button type="submit">S'abonner</button>
+                </form>
+            </div>
+
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="#Accueil">Accueil</a></li>
+                    <li><a href="#pauvreté">Pauvreté</a></li>
+                    <li><a href="#Richesse">Richesse</a></li>
+                    <li><a href="#pib">PIB Madagascar</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 NEWSMADA - Tous droits réservés</p>
+        </div>
+    </footer>
+
+    <script src="Js/script.js"></script>
+</body>
+
+</html>
